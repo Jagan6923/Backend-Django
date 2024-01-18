@@ -43,3 +43,4 @@ values==2020.12.3
 virtualenv==20.25.0
 whichcraft==0.6.1
 wrapt==1.16.0
+gunicorn
