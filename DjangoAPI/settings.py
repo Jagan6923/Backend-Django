@@ -28,7 +28,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR,"media")
 SECRET_KEY = 'i-nx)katbzm&vth6+ks4tj@4-2_)j1bsvyv-b4ohzyzwc^kx-b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -90,6 +90,17 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME':'django_new',
+#         'USER':'root',
+#         'PASSWORD':'root',
+#         'HOST':'localhost',
+#         'PORT':'3306'
+#     }
+# }
+
 
 
 # Password validation
